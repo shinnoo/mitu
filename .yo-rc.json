@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.trandung.mitu"
+    },
+    "jhipsterVersion": "6.3.1",
+    "applicationType": "monolith",
+    "baseName": "mitu",
+    "packageName": "com.trandung.mitu",
+    "packageFolder": "com/trandung/mitu",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NDY5YzdmZjJiOWQ5YmZhZjYwODhjNTQ4YTQxMDdhZDU5NGYyZTkwMTE1NjFkZjI3ZTA3MzE3ODU3MzFkODc2YzMzYWZjNWYxNWE3ZDZkNzc3YjE5YTllOWVhYTY3ZDI3YzMyYzNlMmM5MzU1ZjVlOTU3MDJiMDY3ZDUzN2FhNTE=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
