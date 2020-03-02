@@ -42,6 +42,18 @@ public class CacheConfiguration {
             createCache(cm, com.trandung.mitu.domain.User.class.getName());
             createCache(cm, com.trandung.mitu.domain.Authority.class.getName());
             createCache(cm, com.trandung.mitu.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.trandung.mitu.domain.Region.class.getName());
+            createCache(cm, com.trandung.mitu.domain.Country.class.getName());
+            createCache(cm, com.trandung.mitu.domain.Location.class.getName());
+            createCache(cm, com.trandung.mitu.domain.Department.class.getName());
+            createCache(cm, com.trandung.mitu.domain.Department.class.getName() + ".employees");
+            createCache(cm, com.trandung.mitu.domain.Task.class.getName());
+            createCache(cm, com.trandung.mitu.domain.Task.class.getName() + ".jobs");
+            createCache(cm, com.trandung.mitu.domain.Employee.class.getName());
+            createCache(cm, com.trandung.mitu.domain.Employee.class.getName() + ".jobs");
+            createCache(cm, com.trandung.mitu.domain.Job.class.getName());
+            createCache(cm, com.trandung.mitu.domain.Job.class.getName() + ".tasks");
+            createCache(cm, com.trandung.mitu.domain.JobHistory.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
