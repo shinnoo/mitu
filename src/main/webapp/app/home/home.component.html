@@ -1,3 +1,4 @@
+
 <div class="row">
     <div class="col-md-3">
         <span class="hipster img-fluid rounded"></span>
@@ -11,7 +12,11 @@
                 <span id="home-logged-message" *ngIf="account"
                    > You are logged in as user "{{account.login}}". </span>
             </div>
-
+            <div style="height: 300px;"
+            leaflet 
+            [leafletOptions]="options"
+            [leafletLayersControl]="layersControl">
+       </div>
             <div class="alert alert-warning" *ngSwitchCase="false">
                 <span>If you want to </span>
                 <a class="alert-link" (click)="login()">sign in</a><span>, you can try the default accounts:<br/>- Administrator (login="admin" and password="admin") <br/>- User (login="user" and password="user").</span>
